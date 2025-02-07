@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers - Mini CRM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mini CRM Customers</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="customers.html">Customers</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="customers">
+            <h2>Customers</h2>
+            <button id="add-customer">Add Customer</button>
+            <div id="customer-form" style="display: none;">
+                <input type="text" id="customer-name" placeholder="Customer Name">
+                <input type="email" id="customer-email" placeholder="Customer Email">
+                <button id="save-customer">Save</button>
+            </div>
+            <ul id="customer-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mini CRM</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
